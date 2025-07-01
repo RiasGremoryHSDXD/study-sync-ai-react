@@ -1,11 +1,13 @@
 import './App.css'
 import LogInForm from './pages/LogInForm/index'
+import TestingPage from './pages/TestingPage/index'
 
 function App() {
 
   return (
-    <div className='bg-amber-500'>
-      <LogInForm/>
+    <div>
+      {/* <LogInForm/> */}
+      <TestingPage/>
     </div>
   )
 }
