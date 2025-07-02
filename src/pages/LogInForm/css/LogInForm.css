@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@layer components{
+
+    .form-container{
+        @apply bg-sky-500 flex justify-center items-center w-[100vw] h-[100vh] font-medium
+    }
+
+    .form-container-items{
+        @apply bg-white w-[90%] h-[fit] p-5 flex flex-col gap-6 text-xl 2xl:w-[25vw] xl:w-[30vw] lg:w-[40vw] md:w-[50%] sm:w-[60%] rounded-md
+    }
+
+    .form-container-items div {
+        @apply gap-1.5
+    }
+    
+    .form-container-items input[type=password], input[type=email]{
+        @apply p-2 rounded-md border border-gray-300 font-normal
+    }
+
+    .form-container-items button {
+        @apply cursor-pointer p-1.5 rounded-md
+    }
+}
